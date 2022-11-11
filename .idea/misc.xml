@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/drawable/blackscreen.xml" value="0.1055" />
         <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/drawable/button.xml" value="0.1675" />
+        <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/drawable/drawer_Screen.xml" value="0.1055" />
         <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/drawable/rounded_text.xml" value="0.1675" />
+        <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/layout/activity_home_screen.xml" value="0.2" />
         <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Haziq/University/Semester 07/FYP 1/Eskooljava/app/src/main/res/layout/activity_signup.xml" value="0.2" />
       </map>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeScreen"
+    android:background="@drawable/homescreen">
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="550dp"
+                android:layout_height="200dp"
+                android:background="@drawable/blackscreen"></ImageView>
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/math"
+
+                        >
+
+                    </ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/science"
+
+                        >
+
+                    </ImageButton>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageButton
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:background="@drawable/communicationskills"
+
+                        >
+
+                    </ImageButton>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/drawerbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_icon"
+        >
+
+    </ImageButton>
+</LinearLayout>
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/drawer_Screen"
+
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_gravity=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="0.2"
+                android:gravity="center">
+
+
+
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/circlewhite">
+
+                </ImageView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.05"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Username"
+                    android:textColor="#FFC20F"
+                    android:gravity="center"
+                    android:textSize="25dp">
+
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.05"
+
+                >
+
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#523C1A"
+                    android:textAllCaps="false"
+                    android:textColor="#FFC20F"
+                    android:textSize="20dp"
+                    android:text="Edit Profile" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.05">
+
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#523C1A"
+                    android:textAllCaps="false"
+                    android:textColor="#FFC20F"
+                    android:textSize="20dp"
+                    android:text="Change Password" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.4"
+                android:gravity="bottom"
+                android:weightSum="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="#523C1A"
+                        android:text="Logout"
+                        android:textColor="#FFC20F"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>
