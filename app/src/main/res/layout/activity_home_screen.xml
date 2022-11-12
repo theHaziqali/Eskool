@@ -26,11 +26,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageButton
+                        android:id="@+id/usname"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:background="@drawable/math"
-
-                        >
+                        android:background="@drawable/math">
 
                     </ImageButton>
                 </LinearLayout>
@@ -61,6 +60,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
                     <ImageButton
                         android:layout_width="150dp"
                         android:layout_height="150dp"
@@ -93,7 +93,7 @@
     <androidx.drawerlayout.widget.DrawerLayout
         android:layout_width="300dp"
         android:layout_height="match_parent"
-        android:background="@drawable/drawer_Screen"
+        android:background="@drawable/drawer_screen"
 
         >
 
@@ -155,7 +155,7 @@
 
 
                 <Button
-                    android:id="@+id/button13"
+                    android:id="@+id/profile"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="#523C1A"

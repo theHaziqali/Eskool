@@ -8,7 +8,7 @@
 
     </size>
     <solid
-        android:color="@color/purple_200"/>
+        android:color="#4522A0"/>
 
     <corners
         android:radius="16dp"/>
