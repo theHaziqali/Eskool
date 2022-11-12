@@ -7,6 +7,12 @@
     tools:context=".homeScreen"
     android:background="@drawable/homescreen">
     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+    <LinearLayout
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -15,81 +21,65 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="550dp"
-                android:layout_height="200dp"
-                android:background="@drawable/blackscreen"></ImageView>
-            <LinearLayout
-                android:layout_centerInParent="true"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                    <ImageButton
-                        android:id="@+id/usname"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:background="@drawable/math">
-
-                    </ImageButton>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent">
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-                    <ImageButton
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:background="@drawable/science"
-
-                        >
-
-                    </ImageButton>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent">
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                    <ImageButton
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
-                        android:background="@drawable/communicationskills"
-
-                        >
-
-                    </ImageButton>
-                </LinearLayout>
-
-            </LinearLayout>
-
+                android:layout_width="500dp"
+                android:layout_height="280dp"
+                android:background="@drawable/videoscreen"></ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/black"
+    android:layout_centerInParent="true"
+    android:text="Videos will be here">
+</TextView>
         </RelativeLayout>
 
     </LinearLayout>
-<LinearLayout
-    android:layout_marginTop="30dp"
-    android:layout_marginLeft="30dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    <ImageButton
-        android:id="@+id/drawerbutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/menu_icon"
-        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
 
-    </ImageButton>
-</LinearLayout>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/button"></ImageButton>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:text="lets play Game"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/drawerbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_icon"
+            >
+
+        </ImageButton>
+    </LinearLayout>
 
     <androidx.drawerlayout.widget.DrawerLayout
         android:layout_width="300dp"
