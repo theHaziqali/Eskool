@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homeScreen"
+    tools:context=".home"
     android:background="@drawable/homescreen">
     <LinearLayout
         android:layout_centerInParent="true"
@@ -26,10 +26,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageButton
-                        android:id="@+id/math"
+                        android:id="@+id/science"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:background="@drawable/math">
+                        android:background="@drawable/science">
 
                     </ImageButton>
                 </LinearLayout>
@@ -43,11 +43,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <ImageButton
+                        android:id="@+id/math"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:background="@drawable/science"
-
-                        >
+                        android:background="@drawable/math">
 
                     </ImageButton>
                 </LinearLayout>
@@ -76,22 +75,26 @@
         </RelativeLayout>
 
     </LinearLayout>
-<LinearLayout
-    android:layout_marginTop="30dp"
-    android:layout_marginLeft="30dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    <ImageButton
-        android:id="@+id/drawerbutton"
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/menu_icon"
-        >
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_icon"
+            >
 
-    </ImageButton>
-</LinearLayout>
+        </ImageButton>
+
+
+
+    </LinearLayout>
 
     <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drar"
         android:layout_width="300dp"
         android:layout_height="match_parent"
 
